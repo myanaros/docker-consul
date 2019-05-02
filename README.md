@@ -1,5 +1,11 @@
 # About this Repo
 
+# My Changes
+
+Adding /consul/scripts directory for bind mounting health check scripts from the
+host. I have no idea how anyone uses this image without an easy way to pass in
+health check scripts.
+
 This is the Git repo of the Docker [official image](https://docs.docker.com/docker-hub/official_repos/) for [consul](https://registry.hub.docker.com/_/consul/). See [the Docker Hub page](https://registry.hub.docker.com/_/consul/) for the full readme on how to use this Docker image and for information regarding contributing and issues.
 
 The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs), specificially in [docker-library/docs/consul](https://github.com/docker-library/docs/tree/master/consul).

@@ -44,6 +44,7 @@ RUN set -eux && \
 # config files in that location.
 RUN mkdir -p /consul/data && \
     mkdir -p /consul/config && \
+    mkdir -p /consul/scripts && \
     chown -R consul:consul /consul
 
 # set up nsswitch.conf for Go's "netgo" implementation which is used by Consul,
